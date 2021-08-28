@@ -8,7 +8,7 @@ dimensoes = (600, 600)
 
 # Criando janela do jogo
 tela = pygame.display.set_mode(dimensoes)
-pygame.display.set_caption('Snake Game: Remake')
+pygame.display.set_caption('Snake Game')
 
 # Cores RGB
 preto = (80, 71, 70)
@@ -114,6 +114,7 @@ def score(posicao):
 # Definir tempo
 tempo = pygame.time.Clock()
 
+# Loop até perder
 while True:
     pygame.display.update()
 
